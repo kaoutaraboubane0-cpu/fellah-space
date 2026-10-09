@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FELLAH SPACE - Taroudant</title>
+<style>
+body{font-family:system-ui;background:#fdf6e3;margin:0;color:#2c3e50}
+header{background:#1e6d3a;color:white;padding:25px;text-align:center}
+header h1{margin:0;font-size:28px}
+.box{max-width:650px;margin:15px auto;background:white;border-radius:18px;padding:22px;box-shadow:0 4px 12px #0001}
+h2{color:#1e6d3a;border-left:6px solid #f4b400;padding-left:12px;font-size:18px}
+.btn{width:100%;padding:16px;background:#1e6d3a;color:white;border:none;border-radius:12px;font-size:17px;font-weight:bold;margin:8px 0}
+.btn2{background:white;color:#1e6d3a;border:2px solid #1e6d3a}
+input,select,textarea{width:100%;padding:13px;margin:8px 0;border-radius:10px;border:1px solid #ccc;font-size:15px;box-sizing:border-box}
+.rec{background:#fffbe6;border:2px dashed #f4b400;padding:15px;border-radius:12px}
+.nasa{background:#e8f5e9;padding:15px;border-radius:12px;margin-top:10px}
+</style>
+</head>
+<body>
+<header>
+<h1>🌱 FELLAH SPACE</h1>
+<p>Taroudant - NASA Space Apps 2026<br>Aider les fellahs avec données NASA POWER</p>
+</header>
+
+<div class="box"><h2>1. Accueil / Localisation</h2><button class="btn" onclick="getLoc()">📍 Khdem GPS dyali</button><p id="gps">Mazal... Clicki 3la GPS</p></div>
+
+<div class="box"><h2>2. Type de sol (Vous n'êtes pas sûr?)</h2><select id="sol"><option value="Rmel">Rmel - Sableux - تراب رملة</option><option value="Tin">Tin - Argileux - طين</option><option value="Hamri">Hamri - Limoneux
